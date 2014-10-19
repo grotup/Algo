@@ -11,7 +11,7 @@ namespace AlgoTest.Tri.Bulle
     public class TriBulleTest
     {
         [TestMethod]
-        public void TrierTest()
+        public void TrierTestBulle()
         {
             List<int> ListeTest = Utils.GenerateNumbers(10);
             ListeTest = TriBulle.Trier(ListeTest);
